@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Random Tests! ^^</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style> body { background-color: #e5caff } </style>
+  
+  <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+
+    
+  </head>
+
+
+  <body>
+
+  <script src="muscle.js"></script>
+
+
+    <?php echo '<h3>Hiiiii! I\'m Naji and I\'m 14 (as of June 27), and you\'re on my webpage! <br><br> On this webpage, I\'ll be exploring the world of coding (HTML, CSS, JavaScript, Bootstrap3, and PHP) I hope you enjoy watching me grow!</h3>';
+
+
+    echo "<p> The date is...<br>" . date("m-d-Y") . "<h5> I used the date() function (used in php) to get my webpage to echo today's date and time.</h5>";
+
+    date_default_timezone_set("America/New_York");
+
+    echo "This is the time!--> " . date("h:i:sa");
+
+    ?>
+
+    <br> <br>
+
+
+    <?php
+
+
+    $t = date("H");
+
+    if ($t < "11") {
+      echo "Good Morning!";
+    } elseif ($t < "20") {
+      echo "Good Afternoon!!<br><br>";
+    } else {
+      echo "Good Night!<br><br>";
+    };
+
+
+    if (10 === 13) {
+      echo "<br><br>10 is equal to 13";
+    } else {
+      echo "<br><br>10 is equal to 10";
+    };
+   ?> 
+
+
+
+   
+
+  
+
+
+
+
+  </body>
+</html>
