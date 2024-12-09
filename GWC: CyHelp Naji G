@@ -1,0 +1,58 @@
+#CyHelp Starter Code
+cybersecurityBirthYear = 1970
+
+
+#Greets user
+print("Hello! I'm CyHelp.")
+userName = input("What's your name?\n")
+print("That is a beautiful name " + userName + "\n")
+
+#Recounts start of Cybersecurity
+todaysYear = input("What year is it?\n")
+timePassed = int(todaysYear) - cybersecurityBirthYear
+print("WOWZAS! That means it has been " + str(timePassed) + " years since cybersecurity began")
+
+
+print("The field of Cybersecurity started in the 1970s when more and more information started being stored on computer systems and networks!")
+input("Press ENTER to continue.\n")
+
+# \n can be used to add a break in the line
+
+
+#Describes Cybersecurity
+print("Cybersecurity refers to the practice that people use to protect computer systems and networks from digital threats.")
+
+print("These people can be government, nations, companies, community organizations, and individuals.\n")
+
+
+#Introduces CIA Triad
+print("The CIA Triad is the model used to discuss cybersecurity. CIA stands for confidentiality, integrity, and availability. ")
+print("Would you like to learn about the CIA Triad?")
+
+giveInfo = input("Type 'yes' or 'no'\n")
+  
+
+#Explains pillars of CIA Triad
+while giveInfo.lower() == "yes":
+  print("What would you like to learn more about? Enter the lowercase letter of the following options: \n(a) confidentiality, (b) integrity, (c) availability, or (d) none, please end")
+  topic = input()
+  
+  
+  if topic.lower() == "a":
+    print("confidentiality makes sure data is private.")
+  
+  elif topic.lower() == "b":
+    print("Integrity makes sure data has not been tampered with and can be trusted.")
+  
+  elif topic.lower() == "c":
+    print("Availability makes sure authorized people can access the data.")
+  
+  elif topic.lower() == "d":
+    break
+  
+  else:
+    print("I'm sorry, I don't know that one. Try one of the given options.")
+  
+  
+#Chatbot ends conversation
+print("Thanks for chatting with me, and I hope you learned something new!")
